@@ -7,5 +7,19 @@ All library details given in FSCIL.yml file. To install FSCIL environment run th
 ```
 $conda env create -f FSCIL.yml
 ```
-### Dataset preparation
-We followed same as [CEC](https://github.com/icoz69/CEC-CVPR2021) for dataset preparation.
+### Dataset
+We followed same protocol as [CEC](https://github.com/icoz69/CEC-CVPR2021) for downloading datasets.
+
+### Training
+CIFAR-100
+```
+$bash run_cifar_s3c.sh
+```
+CUB-200
+```
+$conda env create -f FSCIL.yml
+```
+miniImageNet-100
+```
+$conda env create -f FSCIL.yml
+```
