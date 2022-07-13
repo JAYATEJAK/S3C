@@ -84,10 +84,10 @@ if __name__ == '__main__':
     pprint(vars(args))
     args.num_gpu = set_gpu(args)
 
-    print('Loading Glove vectors')
-    glove_vectors = np.load(args.Glove_vec_file)
-    print('Dimension of Glove', glove_vectors.shape)
-    args.Glove_vectors = glove_vectors
+    #print('Loading Glove vectors')
+    #glove_vectors = np.load(args.Glove_vec_file)
+    #print('Dimension of Glove', glove_vectors.shape)
+    #args.Glove_vectors = glove_vectors
 
     trainer = importlib.import_module('models.%s.fscil_trainer' % (args.project)).FSCILTrainer(args)
     trainer.train()
