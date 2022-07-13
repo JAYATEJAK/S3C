@@ -17,9 +17,9 @@ $bash run_cifar_s3c.sh
 ```
 CUB-200
 ```
-$conda env create -f FSCIL.yml
+$bash run_cub_s3c.sh
 ```
 miniImageNet-100
 ```
-$conda env create -f FSCIL.yml
+$bash run_imagenet_s3c.sh
 ```
