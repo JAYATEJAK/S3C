@@ -12,7 +12,7 @@ class StochasticClassifier(nn.Module):
     def __init__(self, num_features, num_classes, temp):
         super().__init__()
         self.mu = nn.Parameter(0.01 * torch.randn(num_classes, num_features))
-        self.sigma = nn.Parameter(torch.zeros(num_classes, num_features))
+        self.sigma = nn.Parameter(torch.zeros(num_classes, num_features))# each rotation have individual variance here
         self.temp = temp
     
     def forward(self, x, stochastic=True):
