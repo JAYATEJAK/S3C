@@ -11,16 +11,18 @@ $conda env create -f FSCIL.yml
 We followed same protocol as [CEC](https://github.com/icoz69/CEC-CVPR2021) for downloading datasets.
 
 ### Training
-CIFAR-100
+#### CIFAR-100
 ```
 $bash run_cifar_s3c.sh
 ```
-CUB-200
+
 for both CUB and ImageNet need to change image shape at training
+
+#### CUB-200
 ```
 $bash run_cub_s3c.sh
 ```
-miniImageNet-100
+#### miniImageNet-100
 ```
 $bash run_imagenet_s3c.sh
 ```
