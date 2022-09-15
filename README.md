@@ -16,6 +16,7 @@ CIFAR-100
 $bash run_cifar_s3c.sh
 ```
 CUB-200
+for both CUB and ImageNet need to change image shape at training
 ```
 $bash run_cub_s3c.sh
 ```
