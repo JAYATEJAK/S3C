@@ -16,7 +16,7 @@ We followed same protocol as [CEC](https://github.com/icoz69/CEC-CVPR2021) for d
 $bash run_cifar_s3c.sh
 ```
 
-for both CUB and ImageNet need to change image shape at training
+For both CUB and miniImageNet, need to change image shape inside training and test functions
 
 #### CUB-200
 ```
